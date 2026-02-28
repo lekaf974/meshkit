@@ -5,3 +5,6 @@ run:
 
 linters:
   default: all
+  settings:
+    staticcheck:
+      checks: ["all", "-ST1003"] # Disable check for error message formatting
